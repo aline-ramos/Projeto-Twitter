@@ -1,0 +1,35 @@
+*{
+    box-sizing: border box;
+    
+       
+    }
+
+
+
+body{
+    color: #14171a;
+    font-size: 14px;
+    line-height: 20px;
+    background-image: url("");
+    font-family: 'Handlee', Arial, Helvetica, sans-serif;
+    
+}
+
+
+.nome-pagina{
+    font-size:3rem;
+    position: relative;
+    margin-left: 5px;;
+    text-align: center;
+    color:blue;
+    border: 10px;
+   }
+
+   textarea{
+    border: 1px solid black;
+    font-family: 'Courier New', Courier, monospace;
+    
+    
+
+   }
+
