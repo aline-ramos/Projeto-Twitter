@@ -7,6 +7,7 @@ let counter= document.getElementById("counter");
 
 tweetBotao.addEventListener("click", tweetar);
 
+
 function tweetar(event){
 let mensagemTweet= document.createElement("li");
 mensagemTweet.textContent=tweetarMensagem.value;
@@ -22,12 +23,19 @@ function counterUp(event){
 let counterValue = lengthvalor - tweetarMensagem.value.length;
 counter.textContent=counterValue;
 tweetBotao.removeAttribute("disabled");
-if (counterValue === lengthvalor) {
+if (counterValue === lengthvalor || counterValue < 0) {
     tweetBotao.setAttribute("disabled", "");    
 } else{
     
-} 
+
+}
 
 
 }
+
+
+
+
+
+
 
