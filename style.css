@@ -1,35 +1,89 @@
 *{
-    box-sizing: border box;
-    
-       
-    }
+    box-sizing: border box;  
+         
+}
 
-
-
-body{
-    color: #14171a;
-    font-size: 14px;
-    line-height: 20px;
-    background-image: url("");
-    font-family: 'Handlee', Arial, Helvetica, sans-serif;
-    
+.primeiroMenu{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family: cursive;
+    padding: 0rem;
+    height: 90px;
+    margin: 0 0 20px 0;
+    justify-content: space-around;
 }
 
 
-.nome-pagina{
-    font-size:3rem;
-    position: relative;
-    margin-left: 5px;;
-    text-align: center;
-    color:blue;
-    border: 10px;
-   }
+body{
+    color: black;
+    font-size: 21px;
+    line-height: 35px;
+    background-image: url("guia-da-alma-13-formas-de-se-espiritualizar-universo.jpg");
+    background-size: 120%;
+    font-family: cursive;    
+}
 
-   textarea{
+
+
+.counter{
+    line-height: 31px;
+    margin-top:4px;
+    vertical-align:center;
+    display: inline-block;
+    color: #1BA1F2;
+
+}
+
+textarea{
     border: 1px solid black;
-    font-family: 'Courier New', Courier, monospace;
-    
-    
+    font-family: 'Courier New', Courier, monospace;  
+    margin: 0 0 20px 0;   
+    opacity: 0.5;
+}
 
-   }
+.counter-blue{
+    color: blue;
+}
 
+.counter-white{
+    color:white;
+}
+
+.counter-red{
+    color: red;
+}
+
+.alinhamento{
+    display: inline-block;
+    flex-direction: column;
+    width: 60%;
+    align-items: center;
+    margin: 0 auto;
+}
+
+
+#tweetBotao{
+  border: none;
+  color: white;
+  background-color: #1BA1F2;
+  height: 100%;
+  width: 16%;
+  border-radius: 100px;
+  font-weight: 800;
+  font-size: 15px;
+  padding: 16px;
+  display: inline-block;
+  vertical-align: center;
+}
+   
+#tweetList li{
+    background-color: white;
+    height: 50%;
+    width: 30%;
+    margin-left: 0;
+    word-break: break-word;
+    list-style: none;
+    opacity: 0.5;
+    font-family: charter; 
+}
